@@ -1,0 +1,182 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+/* Begin PBXBuildFile section */
+		277287AEAE5C556D8E25708D /* BlueRingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95180311882553029FC88B77 /* BlueRingApp.swift */; };
+		69412F042F5E5DA6A874EDC1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A3AD137213526F8DB7213A /* ContentView.swift */; };
+		30728212825553B580BC81F6 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D791B897F35808AFF311D4 /* GameScene.swift */; };
+		BBEAC422AB26586492425A63 /* OctopusNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DD7E7C45E025AE68B56DEF9 /* OctopusNode.swift */; };
+		A37A34E631B757CE9BDB9EF9 /* Predators.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43C1245DCBB5CCFB8B317C7 /* Predators.swift */; };
+		CC5BDA8709DF5FF5A3F35D61 /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10979365FF405FA4A99E064E /* GameState.swift */; };
+		E63724AAE9AD5AFDB25406A9 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFAE02896AE55B7BEBB10C4 /* Helpers.swift */; };
+		5AB783C769CF5C36B228CCBB /* StoreService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A66010E10565621A5D52D3D /* StoreService.swift */; };
+		89F9FAF532E154B8AEC33C34 /* AdsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822DD02F70175E60809A5A62 /* AdsService.swift */; };
+		B7C1E0A1A1E05AB98CAA2B63 /* GameCenterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC5FBFCC1AE5BD2B6FF939E /* GameCenterService.swift */; };
+		C5CA6BAC07F65F6E8EFF3721 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD974C9F323A55DFA070E756 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		95180311882553029FC88B77 /* BlueRingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueRingApp.swift; sourceTree = "<group>"; };
+		C7A3AD137213526F8DB7213A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		84D791B897F35808AFF311D4 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		6DD7E7C45E025AE68B56DEF9 /* OctopusNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OctopusNode.swift; sourceTree = "<group>"; };
+		F43C1245DCBB5CCFB8B317C7 /* Predators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Predators.swift; sourceTree = "<group>"; };
+		10979365FF405FA4A99E064E /* GameState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
+		0AFAE02896AE55B7BEBB10C4 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		3A66010E10565621A5D52D3D /* StoreService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreService.swift; sourceTree = "<group>"; };
+		822DD02F70175E60809A5A62 /* AdsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdsService.swift; sourceTree = "<group>"; };
+		5DC5FBFCC1AE5BD2B6FF939E /* GameCenterService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCenterService.swift; sourceTree = "<group>"; };
+		4E57BCCC511A533EB69034E2 /* BlueRing.storekit */ = {isa = PBXFileReference; lastKnownFileType = file.storekit; path = BlueRing.storekit; sourceTree = "<group>"; };
+		4AAA3FA486EF5D4DBBA15FA3 /* BlueRing.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BlueRing.entitlements; sourceTree = "<group>"; };
+		FD974C9F323A55DFA070E756 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C298669902075F6AAB7FC1B6 /* BlueRing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlueRing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F7516DA46F3588FA42B65EA /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1CC5384BC64158C7894C9A06 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (C5CA6BAC07F65F6E8EFF3721 /* Assets.xcassets in Resources */,); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A8910A60ECC858A8BC0ACA73 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (
+				277287AEAE5C556D8E25708D /* BlueRingApp.swift in Sources */,
+				69412F042F5E5DA6A874EDC1 /* ContentView.swift in Sources */,
+				30728212825553B580BC81F6 /* GameScene.swift in Sources */,
+				BBEAC422AB26586492425A63 /* OctopusNode.swift in Sources */,
+				A37A34E631B757CE9BDB9EF9 /* Predators.swift in Sources */,
+				CC5BDA8709DF5FF5A3F35D61 /* GameState.swift in Sources */,
+				E63724AAE9AD5AFDB25406A9 /* Helpers.swift in Sources */,
+				5AB783C769CF5C36B228CCBB /* StoreService.swift in Sources */,
+				89F9FAF532E154B8AEC33C34 /* AdsService.swift in Sources */,
+				B7C1E0A1A1E05AB98CAA2B63 /* GameCenterService.swift in Sources */,
+			); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXGroup section */
+		D3B54EEF4C9E56D8839F29AD = {isa = PBXGroup; children = (77A06E53C8B2584AAE76FE17, 6F03E9F3E5B959C6BA6DF53B,); sourceTree = "<group>"; };
+		77A06E53C8B2584AAE76FE17 = {isa = PBXGroup; children = (95180311882553029FC88B77, C7A3AD137213526F8DB7213A, 61C9657BE92B58BD8BC81AAE, 23D82D4AC6C958D2A33CB4F9, 4E57BCCC511A533EB69034E2, 4AAA3FA486EF5D4DBBA15FA3, FD974C9F323A55DFA070E756,); name = BlueRing; path = BlueRing; sourceTree = "<group>"; };
+		61C9657BE92B58BD8BC81AAE = {isa = PBXGroup; children = (84D791B897F35808AFF311D4, 6DD7E7C45E025AE68B56DEF9, F43C1245DCBB5CCFB8B317C7,); name = Game; sourceTree = "<group>"; };
+		23D82D4AC6C958D2A33CB4F9 = {isa = PBXGroup; children = (10979365FF405FA4A99E064E, 0AFAE02896AE55B7BEBB10C4, 3A66010E10565621A5D52D3D, 822DD02F70175E60809A5A62, 5DC5FBFCC1AE5BD2B6FF939E,); name = Services; sourceTree = "<group>"; };
+		6F03E9F3E5B959C6BA6DF53B = {isa = PBXGroup; children = (C298669902075F6AAB7FC1B6 /* BlueRing.app */,); name = Products; sourceTree = "<group>"; };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA63C5BB93205ACBB7E0EF45 /* BlueRing */ = {isa = PBXNativeTarget; buildConfigurationList = 5D110BB7D2045386BA598273 /* Build configuration list for PBXNativeTarget "BlueRing" */; buildPhases = (A8910A60ECC858A8BC0ACA73 /* Sources */, 0F7516DA46F3588FA42B65EA /* Frameworks */, 1CC5384BC64158C7894C9A06 /* Resources */,); buildRules = (); dependencies = (); name = BlueRing; productName = BlueRing; productReference = C298669902075F6AAB7FC1B6 /* BlueRing.app */; productType = "com.apple.product-type.application"; };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		68AD2D4B666751EC82F87B3D /* Project object */ = {isa = PBXProject; attributes = {BuildIndependentTargetsInParallel = 1; LastSwiftUpdateCheck = 1600; LastUpgradeCheck = 1600; TargetAttributes = {EA63C5BB93205ACBB7E0EF45 = {CreatedOnToolsVersion = 16.0; };};}; buildConfigurationList = 0F51A8AFD87158DDB0729F29 /* Build configuration list for PBXProject "BlueRing" */; compatibilityVersion = "Xcode 14.0"; developmentRegion = en; hasScannedForEncodings = 0; knownRegions = (en,); mainGroup = D3B54EEF4C9E56D8839F29AD; productRefGroup = 6F03E9F3E5B959C6BA6DF53B /* Products */; projectDirPath = ""; projectRoot = ""; targets = (EA63C5BB93205ACBB7E0EF45 /* BlueRing */,); };
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		{'ALWAYS_SEARCH_USER_PATHS': 'NO', 'CLANG_ANALYZER_NONNULL': 'YES', 'CLANG_CXX_LANGUAGE_STANDARD': '"gnu++20"', 'CLANG_ENABLE_MODULES': 'YES', 'CLANG_ENABLE_OBJC_ARC': 'YES', 'CLANG_WARN_DOCUMENTATION_COMMENTS': 'YES', 'COPY_PHASE_STRIP': 'NO', 'GCC_C_LANGUAGE_STANDARD': 'gnu11', 'IPHONEOS_DEPLOYMENT_TARGET': '17.0', 'MTL_ENABLE_DEBUG_INFO': 'INCLUDE_SOURCE', 'MTL_FAST_MATH': 'YES', 'SDKROOT': 'iphoneos', 'DEBUG_INFORMATION_FORMAT': 'dwarf', 'GCC_DYNAMIC_NO_PIC': 'NO', 'GCC_OPTIMIZATION_LEVEL': '0', 'GCC_PREPROCESSOR_DEFINITIONS': '("DEBUG=1", "$(inherited)")', 'ONLY_ACTIVE_ARCH': 'YES', 'SWIFT_ACTIVE_COMPILATION_CONDITIONS': 'DEBUG', 'SWIFT_OPTIMIZATION_LEVEL': '"-Onone"'} /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {
+			ALWAYS_SEARCH_USER_PATHS = NO;
+			CLANG_ANALYZER_NONNULL = YES;
+			CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+			CLANG_ENABLE_MODULES = YES;
+			CLANG_ENABLE_OBJC_ARC = YES;
+			CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+			COPY_PHASE_STRIP = NO;
+			GCC_C_LANGUAGE_STANDARD = gnu11;
+			IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+			MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+			MTL_FAST_MATH = YES;
+			SDKROOT = iphoneos;
+			DEBUG_INFORMATION_FORMAT = dwarf;
+			GCC_DYNAMIC_NO_PIC = NO;
+			GCC_OPTIMIZATION_LEVEL = 0;
+			GCC_PREPROCESSOR_DEFINITIONS = ("DEBUG=1", "$(inherited)");
+			ONLY_ACTIVE_ARCH = YES;
+			SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+			SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+		}; name = Debug; };
+		{'ALWAYS_SEARCH_USER_PATHS': 'NO', 'CLANG_ANALYZER_NONNULL': 'YES', 'CLANG_CXX_LANGUAGE_STANDARD': '"gnu++20"', 'CLANG_ENABLE_MODULES': 'YES', 'CLANG_ENABLE_OBJC_ARC': 'YES', 'CLANG_WARN_DOCUMENTATION_COMMENTS': 'YES', 'COPY_PHASE_STRIP': 'NO', 'GCC_C_LANGUAGE_STANDARD': 'gnu11', 'IPHONEOS_DEPLOYMENT_TARGET': '17.0', 'MTL_ENABLE_DEBUG_INFO': 'NO', 'MTL_FAST_MATH': 'YES', 'SDKROOT': 'iphoneos', 'DEBUG_INFORMATION_FORMAT': '"dwarf-with-dsym"', 'ENABLE_NS_ASSERTIONS': 'NO', 'SWIFT_OPTIMIZATION_LEVEL': '"-O"', 'VALIDATE_PRODUCT': 'YES'} /* Release */ = {isa = XCBuildConfiguration; buildSettings = {
+			ALWAYS_SEARCH_USER_PATHS = NO;
+			CLANG_ANALYZER_NONNULL = YES;
+			CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+			CLANG_ENABLE_MODULES = YES;
+			CLANG_ENABLE_OBJC_ARC = YES;
+			CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+			COPY_PHASE_STRIP = NO;
+			GCC_C_LANGUAGE_STANDARD = gnu11;
+			IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+			MTL_ENABLE_DEBUG_INFO = NO;
+			MTL_FAST_MATH = YES;
+			SDKROOT = iphoneos;
+			DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+			ENABLE_NS_ASSERTIONS = NO;
+			SWIFT_OPTIMIZATION_LEVEL = "-O";
+			VALIDATE_PRODUCT = YES;
+		}; name = Release; };
+		{'ASSETCATALOG_COMPILER_APPICON_NAME': 'AppIcon', 'ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS': 'YES', 'CODE_SIGN_ENTITLEMENTS': 'BlueRing/BlueRing.entitlements', 'CODE_SIGN_STYLE': 'Automatic', 'CURRENT_PROJECT_VERSION': '1', 'DEVELOPMENT_TEAM': '""', 'ENABLE_PREVIEWS': 'YES', 'GENERATE_INFOPLIST_FILE': 'YES', 'INFOPLIST_KEY_CFBundleDisplayName': 'Inkpulse', 'INFOPLIST_KEY_LSRequiresIPhoneOS': 'YES', 'INFOPLIST_KEY_UILaunchScreen_Generation': 'YES', 'INFOPLIST_KEY_UIRequiredDeviceCapabilities': 'arm64', 'INFOPLIST_KEY_UIStatusBarStyle': 'UIStatusBarStyleLightContent', 'INFOPLIST_KEY_UISupportedInterfaceOrientations': '"UIInterfaceOrientationPortrait"', 'IPHONEOS_DEPLOYMENT_TARGET': '17.0', 'MARKETING_VERSION': '1.0', 'PRODUCT_BUNDLE_IDENTIFIER': 'com.rhymaun.bluering', 'PRODUCT_NAME': '"$(TARGET_NAME)"', 'SWIFT_EMIT_LOC_STRINGS': 'YES', 'SWIFT_VERSION': '5.0', 'TARGETED_DEVICE_FAMILY': '"1,2"', 'CODE_SIGN_IDENTITY': '"Apple Development"', 'DEBUG_INFORMATION_FORMAT': 'dwarf', 'GCC_OPTIMIZATION_LEVEL': '0', 'SWIFT_ACTIVE_COMPILATION_CONDITIONS': 'DEBUG', 'SWIFT_OPTIMIZATION_LEVEL': '"-Onone"', 'ONLY_ACTIVE_ARCH': 'YES'} /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {
+			ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+			ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+			CODE_SIGN_ENTITLEMENTS = BlueRing/BlueRing.entitlements;
+			CODE_SIGN_STYLE = Automatic;
+			CURRENT_PROJECT_VERSION = 1;
+			DEVELOPMENT_TEAM = "";
+			ENABLE_PREVIEWS = YES;
+			GENERATE_INFOPLIST_FILE = YES;
+			INFOPLIST_KEY_CFBundleDisplayName = Inkpulse;
+			INFOPLIST_KEY_LSRequiresIPhoneOS = YES;
+			INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+			INFOPLIST_KEY_UIRequiredDeviceCapabilities = arm64;
+			INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+			INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait";
+			IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+			MARKETING_VERSION = 1.0;
+			PRODUCT_BUNDLE_IDENTIFIER = com.rhymaun.bluering;
+			PRODUCT_NAME = "$(TARGET_NAME)";
+			SWIFT_EMIT_LOC_STRINGS = YES;
+			SWIFT_VERSION = 5.0;
+			TARGETED_DEVICE_FAMILY = "1,2";
+			CODE_SIGN_IDENTITY = "Apple Development";
+			DEBUG_INFORMATION_FORMAT = dwarf;
+			GCC_OPTIMIZATION_LEVEL = 0;
+			SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+			SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			ONLY_ACTIVE_ARCH = YES;
+		}; name = Debug; };
+		{'ASSETCATALOG_COMPILER_APPICON_NAME': 'AppIcon', 'ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS': 'YES', 'CODE_SIGN_ENTITLEMENTS': 'BlueRing/BlueRing.entitlements', 'CODE_SIGN_STYLE': 'Automatic', 'CURRENT_PROJECT_VERSION': '1', 'DEVELOPMENT_TEAM': '""', 'ENABLE_PREVIEWS': 'YES', 'GENERATE_INFOPLIST_FILE': 'YES', 'INFOPLIST_KEY_CFBundleDisplayName': 'Inkpulse', 'INFOPLIST_KEY_LSRequiresIPhoneOS': 'YES', 'INFOPLIST_KEY_UILaunchScreen_Generation': 'YES', 'INFOPLIST_KEY_UIRequiredDeviceCapabilities': 'arm64', 'INFOPLIST_KEY_UIStatusBarStyle': 'UIStatusBarStyleLightContent', 'INFOPLIST_KEY_UISupportedInterfaceOrientations': '"UIInterfaceOrientationPortrait"', 'IPHONEOS_DEPLOYMENT_TARGET': '17.0', 'MARKETING_VERSION': '1.0', 'PRODUCT_BUNDLE_IDENTIFIER': 'com.rhymaun.bluering', 'PRODUCT_NAME': '"$(TARGET_NAME)"', 'SWIFT_EMIT_LOC_STRINGS': 'YES', 'SWIFT_VERSION': '5.0', 'TARGETED_DEVICE_FAMILY': '"1,2"', 'CODE_SIGN_IDENTITY': '"Apple Distribution"', 'DEBUG_INFORMATION_FORMAT': '"dwarf-with-dsym"', 'SWIFT_OPTIMIZATION_LEVEL': '"-O"', 'VALIDATE_PRODUCT': 'YES'} /* Release */ = {isa = XCBuildConfiguration; buildSettings = {
+			ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+			ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+			CODE_SIGN_ENTITLEMENTS = BlueRing/BlueRing.entitlements;
+			CODE_SIGN_STYLE = Automatic;
+			CURRENT_PROJECT_VERSION = 1;
+			DEVELOPMENT_TEAM = "";
+			ENABLE_PREVIEWS = YES;
+			GENERATE_INFOPLIST_FILE = YES;
+			INFOPLIST_KEY_CFBundleDisplayName = Inkpulse;
+			INFOPLIST_KEY_LSRequiresIPhoneOS = YES;
+			INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+			INFOPLIST_KEY_UIRequiredDeviceCapabilities = arm64;
+			INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+			INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait";
+			IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+			MARKETING_VERSION = 1.0;
+			PRODUCT_BUNDLE_IDENTIFIER = com.rhymaun.bluering;
+			PRODUCT_NAME = "$(TARGET_NAME)";
+			SWIFT_EMIT_LOC_STRINGS = YES;
+			SWIFT_VERSION = 5.0;
+			TARGETED_DEVICE_FAMILY = "1,2";
+			CODE_SIGN_IDENTITY = "Apple Distribution";
+			DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+			SWIFT_OPTIMIZATION_LEVEL = "-O";
+			VALIDATE_PRODUCT = YES;
+		}; name = Release; };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F51A8AFD87158DDB0729F29 /* Build configuration list for PBXProject "BlueRing" */ = {isa = XCConfigurationList; buildConfigurations = ({'ALWAYS_SEARCH_USER_PATHS': 'NO', 'CLANG_ANALYZER_NONNULL': 'YES', 'CLANG_CXX_LANGUAGE_STANDARD': '"gnu++20"', 'CLANG_ENABLE_MODULES': 'YES', 'CLANG_ENABLE_OBJC_ARC': 'YES', 'CLANG_WARN_DOCUMENTATION_COMMENTS': 'YES', 'COPY_PHASE_STRIP': 'NO', 'GCC_C_LANGUAGE_STANDARD': 'gnu11', 'IPHONEOS_DEPLOYMENT_TARGET': '17.0', 'MTL_ENABLE_DEBUG_INFO': 'INCLUDE_SOURCE', 'MTL_FAST_MATH': 'YES', 'SDKROOT': 'iphoneos', 'DEBUG_INFORMATION_FORMAT': 'dwarf', 'GCC_DYNAMIC_NO_PIC': 'NO', 'GCC_OPTIMIZATION_LEVEL': '0', 'GCC_PREPROCESSOR_DEFINITIONS': '("DEBUG=1", "$(inherited)")', 'ONLY_ACTIVE_ARCH': 'YES', 'SWIFT_ACTIVE_COMPILATION_CONDITIONS': 'DEBUG', 'SWIFT_OPTIMIZATION_LEVEL': '"-Onone"'} /* Debug */, {'ALWAYS_SEARCH_USER_PATHS': 'NO', 'CLANG_ANALYZER_NONNULL': 'YES', 'CLANG_CXX_LANGUAGE_STANDARD': '"gnu++20"', 'CLANG_ENABLE_MODULES': 'YES', 'CLANG_ENABLE_OBJC_ARC': 'YES', 'CLANG_WARN_DOCUMENTATION_COMMENTS': 'YES', 'COPY_PHASE_STRIP': 'NO', 'GCC_C_LANGUAGE_STANDARD': 'gnu11', 'IPHONEOS_DEPLOYMENT_TARGET': '17.0', 'MTL_ENABLE_DEBUG_INFO': 'NO', 'MTL_FAST_MATH': 'YES', 'SDKROOT': 'iphoneos', 'DEBUG_INFORMATION_FORMAT': '"dwarf-with-dsym"', 'ENABLE_NS_ASSERTIONS': 'NO', 'SWIFT_OPTIMIZATION_LEVEL': '"-O"', 'VALIDATE_PRODUCT': 'YES'} /* Release */,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		5D110BB7D2045386BA598273 /* Build configuration list for PBXNativeTarget "BlueRing" */ = {isa = XCConfigurationList; buildConfigurations = ({'ASSETCATALOG_COMPILER_APPICON_NAME': 'AppIcon', 'ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS': 'YES', 'CODE_SIGN_ENTITLEMENTS': 'BlueRing/BlueRing.entitlements', 'CODE_SIGN_STYLE': 'Automatic', 'CURRENT_PROJECT_VERSION': '1', 'DEVELOPMENT_TEAM': '""', 'ENABLE_PREVIEWS': 'YES', 'GENERATE_INFOPLIST_FILE': 'YES', 'INFOPLIST_KEY_CFBundleDisplayName': 'Inkpulse', 'INFOPLIST_KEY_LSRequiresIPhoneOS': 'YES', 'INFOPLIST_KEY_UILaunchScreen_Generation': 'YES', 'INFOPLIST_KEY_UIRequiredDeviceCapabilities': 'arm64', 'INFOPLIST_KEY_UIStatusBarStyle': 'UIStatusBarStyleLightContent', 'INFOPLIST_KEY_UISupportedInterfaceOrientations': '"UIInterfaceOrientationPortrait"', 'IPHONEOS_DEPLOYMENT_TARGET': '17.0', 'MARKETING_VERSION': '1.0', 'PRODUCT_BUNDLE_IDENTIFIER': 'com.rhymaun.bluering', 'PRODUCT_NAME': '"$(TARGET_NAME)"', 'SWIFT_EMIT_LOC_STRINGS': 'YES', 'SWIFT_VERSION': '5.0', 'TARGETED_DEVICE_FAMILY': '"1,2"', 'CODE_SIGN_IDENTITY': '"Apple Development"', 'DEBUG_INFORMATION_FORMAT': 'dwarf', 'GCC_OPTIMIZATION_LEVEL': '0', 'SWIFT_ACTIVE_COMPILATION_CONDITIONS': 'DEBUG', 'SWIFT_OPTIMIZATION_LEVEL': '"-Onone"', 'ONLY_ACTIVE_ARCH': 'YES'} /* Debug */, {'ASSETCATALOG_COMPILER_APPICON_NAME': 'AppIcon', 'ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS': 'YES', 'CODE_SIGN_ENTITLEMENTS': 'BlueRing/BlueRing.entitlements', 'CODE_SIGN_STYLE': 'Automatic', 'CURRENT_PROJECT_VERSION': '1', 'DEVELOPMENT_TEAM': '""', 'ENABLE_PREVIEWS': 'YES', 'GENERATE_INFOPLIST_FILE': 'YES', 'INFOPLIST_KEY_CFBundleDisplayName': 'Inkpulse', 'INFOPLIST_KEY_LSRequiresIPhoneOS': 'YES', 'INFOPLIST_KEY_UILaunchScreen_Generation': 'YES', 'INFOPLIST_KEY_UIRequiredDeviceCapabilities': 'arm64', 'INFOPLIST_KEY_UIStatusBarStyle': 'UIStatusBarStyleLightContent', 'INFOPLIST_KEY_UISupportedInterfaceOrientations': '"UIInterfaceOrientationPortrait"', 'IPHONEOS_DEPLOYMENT_TARGET': '17.0', 'MARKETING_VERSION': '1.0', 'PRODUCT_BUNDLE_IDENTIFIER': 'com.rhymaun.bluering', 'PRODUCT_NAME': '"$(TARGET_NAME)"', 'SWIFT_EMIT_LOC_STRINGS': 'YES', 'SWIFT_VERSION': '5.0', 'TARGETED_DEVICE_FAMILY': '"1,2"', 'CODE_SIGN_IDENTITY': '"Apple Distribution"', 'DEBUG_INFORMATION_FORMAT': '"dwarf-with-dsym"', 'SWIFT_OPTIMIZATION_LEVEL': '"-O"', 'VALIDATE_PRODUCT': 'YES'} /* Release */,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+/* End XCConfigurationList section */
+	};
+	rootObject = 68AD2D4B666751EC82F87B3D /* Project object */;
+}
